@@ -76,6 +76,7 @@ class Client:
         input_of_server = self.receive_message_from_server()
 
         print("server sent:" + input_of_server)
+        print("hi")
 
         return input_of_server
 
